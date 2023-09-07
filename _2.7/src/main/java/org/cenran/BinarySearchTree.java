@@ -10,7 +10,8 @@ package org.cenran;
  */
 public class BinarySearchTree {
 
-    public class Node {
+    /* 内部类 Node */
+    private class Node {
 
         /* 节点数据 */
         public int data;
@@ -37,7 +38,7 @@ public class BinarySearchTree {
     }
 
     /* 二叉排序树的成员变量 - 根节点 root */
-    public Node root;
+    private Node root;
 
     /***
      * @description 二叉排序树的构造器（空参）
